@@ -1,7 +1,9 @@
 #!/usr/bin/bash
 
+echo $0
+
 cp ~/.config/i3/config ~/.config/dotfiles/i3config
-cp ~/.config/polybar/config.ini ~/.config/dotfiles/polybar.config.ini
+cp -r ~/.config/rofi  ~/.config/dotfiles/
 cp ~/.config/picom/picom.conf ~/.config/dotfiles/
 cp ~/.config/tmux/tmux.conf ~/.config/dotfiles/
 
